@@ -30,7 +30,7 @@ fetchData(API, (error1, data1) => {
 
             if(error3) return console.error(error3);
         
-            //api data
+            //API data
             console.log(data1.info.count);
             console.log(data2.name);
             console.log(data3.dimension);
